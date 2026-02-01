@@ -150,10 +150,7 @@
       downloadBtn.download = "";
 
       // Set group-specific file paths (must exist in files folder)
-      downloadBtn.href = group === "A"
-        ? "files/BachelorThesis_LiamHermann1.7z"
-        ? "files/BachelorThesisLiamHermann_1.7z"
-        : "files/BachelorThesis_LiamHermann_1.7z";
+      downloadBtn.href = group === "A"? "files/BachelorThesisLiamHermann_1.7z" : "files/BachelorThesis_LiamHermann_1.7z";
 
       resultDiv.appendChild(downloadBtn);
     }
